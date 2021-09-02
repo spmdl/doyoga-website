@@ -8469,6 +8469,10 @@ fieldset:disabled .btn {
   top: 0 !important;
 }
 
+.top-35 {
+  top: 35% !important;
+}
+
 .top-50 {
   top: 50% !important;
 }
@@ -8479,6 +8483,10 @@ fieldset:disabled .btn {
 
 .bottom-0 {
   bottom: 0 !important;
+}
+
+.bottom-35 {
+  bottom: 35% !important;
 }
 
 .bottom-50 {
@@ -8493,6 +8501,10 @@ fieldset:disabled .btn {
   left: 0 !important;
 }
 
+.start-35 {
+  left: 35% !important;
+}
+
 .start-50 {
   left: 50% !important;
 }
@@ -8503,6 +8515,10 @@ fieldset:disabled .btn {
 
 .end-0 {
   right: 0 !important;
+}
+
+.end-35 {
+  right: 35% !important;
 }
 
 .end-50 {
@@ -11423,6 +11439,10 @@ fieldset:disabled .btn {
   font-size: 2rem !important;
 }
 
+.fs-l {
+  font-size: 3rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -11795,6 +11815,18 @@ fieldset:disabled .btn {
 
 .ratio-21x9 {
   --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
+}
+
+.z-index-1 {
+  z-index: 1 !important;
+}
+
+.z-index-2 {
+  z-index: 2 !important;
+}
+
+.z-index-999 {
+  z-index: 999 !important;
 }
 
 @media (min-width: 576px) {
@@ -14004,6 +14036,9 @@ fieldset:disabled .btn {
   }
   .fs-sm-m {
     font-size: 2rem !important;
+  }
+  .fs-sm-l {
+    font-size: 3rem !important;
   }
   .fw-sm-light {
     font-weight: 300 !important;
@@ -16317,6 +16352,9 @@ fieldset:disabled .btn {
   .fs-md-m {
     font-size: 2rem !important;
   }
+  .fs-md-l {
+    font-size: 3rem !important;
+  }
   .fw-md-light {
     font-weight: 300 !important;
   }
@@ -18628,6 +18666,9 @@ fieldset:disabled .btn {
   }
   .fs-lg-m {
     font-size: 2rem !important;
+  }
+  .fs-lg-l {
+    font-size: 3rem !important;
   }
   .fw-lg-light {
     font-weight: 300 !important;
@@ -20941,6 +20982,9 @@ fieldset:disabled .btn {
   .fs-xl-m {
     font-size: 2rem !important;
   }
+  .fs-xl-l {
+    font-size: 3rem !important;
+  }
   .fw-xl-light {
     font-weight: 300 !important;
   }
@@ -23252,6 +23296,9 @@ fieldset:disabled .btn {
   }
   .fs-xxl-m {
     font-size: 2rem !important;
+  }
+  .fs-xxl-l {
+    font-size: 3rem !important;
   }
   .fw-xxl-light {
     font-weight: 300 !important;
