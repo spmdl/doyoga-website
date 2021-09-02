@@ -1,0 +1,19 @@
+.btn-outline-primary:hover{
+  color: $white;
+}
+
+.btn-secondary{
+  color: $white;
+  &:hover{
+    background: $primary;
+    color: $white;
+  }
+}
+
+.btn-light{
+  color: $dark;
+  &:hover{
+    background: $primary;
+    color: $white;
+  }
+}

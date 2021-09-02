@@ -1,0 +1,18 @@
+// input placeholder color
+@each $color, $val in $theme-colors{
+  .ph-#{$color}{
+    &::placeholder {
+      color: $val !important;
+    }
+    &::-webkit-input-placeholder {
+      color: $val !important;
+    }
+    &:-ms-input-placeholder {
+      color: $val !important;
+    }
+    &::-moz-placeholder {
+      color: $val !important;
+      opacity: 1;
+    }
+  }
+}
