@@ -20,6 +20,7 @@ $utilities: map-merge(
         values: map-merge(
           map-get(map-get($utilities, "height"), "values"),
           (
+            "m": 445px,
             "l": 628px,
           ),
         )
@@ -74,9 +75,10 @@ $utilities: map-merge(
       property: object-position,
       values: (
         null: center center,
+        "t": top center,
         "rs": 40% 50%,
         "ls": 75% 50%,
-        "bs": 50% 30%,
+        "bs": 50% 40%,
       ),
     ),
     "ratio": (
