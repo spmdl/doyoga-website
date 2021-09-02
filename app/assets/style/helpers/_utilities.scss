@@ -99,5 +99,14 @@ $utilities: map-merge(
       class: ratio,
       values: ($aspect-ratios),
     ),
+    "z-index": (
+      property: z-index,
+      class: z-index,
+      values: (
+        1: 1,
+        2: 2,
+        999: 999,
+      )
+    ),
   )
 );

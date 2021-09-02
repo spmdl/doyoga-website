@@ -47,6 +47,14 @@ $font-sizes: (
   6: 1.125rem,             // 18
   7: .875rem,              // 14
   "m": 2rem,               // 32
+  "l": 3rem,               // 48
+) !default;
+
+$position-values: (
+  0: 0,
+  35: 35%,
+  50: 50%,
+  100: 100%
 ) !default;
 
 $enable-negative-margins:           true !default;
