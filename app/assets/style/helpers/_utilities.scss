@@ -58,6 +58,12 @@ $utilities: map-merge(
         rfs: false,
       )
     ),
+    "rounded-top": map-merge(
+      map-get($utilities, "rounded-top"),(responsive: true,)
+    ),
+    "rounded-start": map-merge(
+      map-get($utilities, "rounded-start"),(responsive: true,)
+    ),
     "object-fit": (
       responsive: true,
       property: object-fit,
