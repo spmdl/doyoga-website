@@ -1,0 +1,24 @@
+*,*::before,*::after{
+  box-sizing:border-box ;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+a {
+  display: block;
+  transition: .3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+%heading, p {
+  margin-bottom: 0;
+  line-height: $line-height-base;
+}

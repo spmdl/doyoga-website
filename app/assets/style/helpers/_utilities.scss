@@ -1,0 +1,89 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      (
+        responsive: true,
+        values: map-merge(
+          map-get(map-get($utilities, "width"), "values"),
+          (
+
+          ),
+        )
+      )
+    ),
+    "height": map-merge(
+      map-get($utilities, "height"),
+      (
+        responsive: true,
+        values: map-merge(
+          map-get(map-get($utilities, "height"), "values"),
+          (
+            "l": 628px,
+          ),
+        )
+      )
+    ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      values: (
+        null: $border-radius,
+        0: 0,
+        1: 1rem,
+        2: $border-radius,
+        3: $border-radius-lg,
+        circle: 50%,
+        pill: $border-radius-pill
+      )
+    ),
+    "font-weight": map-merge(
+      map-get($utilities, "font-weight"),
+      (
+        responsive: true,
+        values: map-merge(
+          map-get(map-get($utilities, "font-weight"), "values"),
+          (
+            medium: 500,
+          ),
+        )
+      )
+    ),
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      (
+        responsive: true,
+        rfs: false,
+      )
+    ),
+    "object-fit": (
+      responsive: true,
+      property: object-fit,
+      class: object,
+      values: (
+        fill: fill,
+        contain: contain,
+        cover: cover,
+        none: none,
+        scale-down: scale-down
+      ),
+    ),
+    "object-position": (
+      responsive: true,
+      property: object-position,
+      values: (
+        null: center center,
+        "rs": 40% 50%,
+        "ls": 75% 50%,
+        "bs": 50% 30%,
+      ),
+    ),
+    "ratio": (
+      responsive: true,
+      property: --bs-aspect-ratio,
+      class: ratio,
+      values: ($aspect-ratios),
+    ),
+  )
+);
