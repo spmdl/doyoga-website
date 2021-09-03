@@ -70,7 +70,6 @@ $link-color:                        $primary !default;
 $link-decoration:                   none !default;       
 
 // Border
-$border-radius:                     1rem !default;
 $border-color:                      $primary !default;
 
 // Button
@@ -96,8 +95,12 @@ $card-border-radius:                1rem !default;
 $card-border-width:                 0 !default;
 
 // Input
-$input-color:                       $secondary !default;
-$input-border-radius:               .25rem !default;
+$input-color:                       $primary !default;
+$input-border-color:                $secondary !default;
+$input-placeholder-color:           $secondary !default;
+
+// $form-check-input-border:           1px solid $secondary !default;
+
 
 // Ratios
 $aspect-ratios: (
