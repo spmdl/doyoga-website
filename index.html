@@ -8,6 +8,11 @@
     <title>首頁</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+      <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css" /> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+    <link rel="icon" href="./assets/images/outline_self_improvement_black_24dp.png">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -225,57 +230,29 @@
             <p class="text-secondary fs-5 mb-6">
               教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。
             </p>
-            <a href="course.html" class="d-flex align-items-center mb-4">
+            <a href="course.html" class="d-flex align-items-center link-primary mb-4">
               <span class="me-2">課程介紹</span>
               <span class="material-icons-outlined">trending_flat</span>
             </a>
           </div>
         </div>
-        <div class="col-md-6">
-          <ul class="row flex-lg-nowrap overflow-auto">
-            <li class="col-6 col-lg-10 mb-4 mb-md-6 mb-lg-0">
-              <div class="ratio ratio-1x1 h-lg-m overflow-hidden rounded-1">
-                <img src="./assets/images/woman doing yoga beside wall.jpg" alt="course-img" class="object-cover">
+        <div class="col-md-6 mt-4 mt-md-0">
+          <div class="swiper courseSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide ratio ratio-1x1 overflow-hidden rounded-1 h-lg-m">
+                  <img src="./assets/images/woman doing yoga beside wall.jpg" alt="yoga-img" class="object-cover">
               </div>
-            </li>
-            <li class="col-6 col-lg-10 mb-4 mb-md-6 mb-lg-0">
-              <div class="ratio ratio-1x1 h-lg-m overflow-hidden rounded-1">
-                <img src="./assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg" alt="course-img" class="object-cover">
+              <div class="swiper-slide ratio ratio-1x1 overflow-hidden rounded-1 h-lg-m">
+                  <img src="./assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg" alt="yoga-img" class="object-cover">
               </div>
-            </li>
-            <li class="col-6 col-lg-10">
-              <div class="ratio ratio-1x1 h-lg-m overflow-hidden rounded-1">
-                <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg" alt="" class="object-position-ls object-cover" loading="lazy">
+              <div class="swiper-slide ratio ratio-1x1 overflow-hidden rounded-1 h-lg-m">
+                  <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg" alt="yoga-img" class="object-position-ls object-cover">
               </div>
-            </li>
-            <li class="col-6 col-lg-10">
-              <div class="ratio ratio-1x1 h-lg-m overflow-hidden rounded-1">
-                <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" alt="" class="object-position-bs object-cover" loading="lazy">
+              <div class="swiper-slide ratio ratio-1x1 overflow-hidden rounded-1 h-lg-m">
+                  <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" alt="yoga-img" class="object-position-bs object-cover">
               </div>
-            </li>
-          </ul>
-          <!-- <ul class="d-lg-none row">
-            <li class="col-6 mb-4 mb-md-6">
-              <div class="ratio ratio-1x1 overflow-hidden rounded-1">
-                <img src="./assets/images/woman doing yoga beside wall.jpg" alt="" class="object-cover" loading="lazy">
-              </div>
-            </li>
-            <li class="col-6 mb-4 mb-md-6">
-              <div class="ratio ratio-1x1 overflow-hidden rounded-1">
-                <img src="./assets/images/rawan-yasser-zQ1ypq-WHzQ-unsplash.jpg" alt="" class="object-cover" loading="lazy">
-              </div>
-            </li>
-            <li class="col-6 mb-4 mb-md-6">
-              <div class="ratio ratio-1x1 overflow-hidden rounded-1">
-                <img src="./assets/images/woman in black sports bra and black leggings doing yoga.jpg" alt="" class="object-position-ls object-cover" loading="lazy">
-              </div>
-            </li>
-            <li class="col-6 mb-4 mb-md-6">
-              <div class="ratio ratio-1x1 overflow-hidden rounded-1">
-                <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg" alt="" class="object-position-bs object-cover" loading="lazy">
-              </div>
-            </li>
-          </ul> -->
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -567,6 +544,11 @@
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
     <script src="./assets/js/all.js"></script>
   </body>
 
