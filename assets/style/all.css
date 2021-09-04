@@ -8663,6 +8663,10 @@ fieldset:disabled .btn {
   width: auto !important;
 }
 
+.w-m {
+  width: 445px !important;
+}
+
 .mw-100 {
   max-width: 100% !important;
 }
@@ -11919,6 +11923,9 @@ fieldset:disabled .btn {
   .w-sm-auto {
     width: auto !important;
   }
+  .w-sm-m {
+    width: 445px !important;
+  }
   .h-sm-25 {
     height: 25% !important;
   }
@@ -14233,6 +14240,9 @@ fieldset:disabled .btn {
   }
   .w-md-auto {
     width: auto !important;
+  }
+  .w-md-m {
+    width: 445px !important;
   }
   .h-md-25 {
     height: 25% !important;
@@ -16549,6 +16559,9 @@ fieldset:disabled .btn {
   .w-lg-auto {
     width: auto !important;
   }
+  .w-lg-m {
+    width: 445px !important;
+  }
   .h-lg-25 {
     height: 25% !important;
   }
@@ -18864,6 +18877,9 @@ fieldset:disabled .btn {
   .w-xl-auto {
     width: auto !important;
   }
+  .w-xl-m {
+    width: 445px !important;
+  }
   .h-xl-25 {
     height: 25% !important;
   }
@@ -21178,6 +21194,9 @@ fieldset:disabled .btn {
   }
   .w-xxl-auto {
     width: auto !important;
+  }
+  .w-xxl-m {
+    width: 445px !important;
   }
   .h-xxl-25 {
     height: 25% !important;

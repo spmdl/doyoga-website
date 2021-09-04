@@ -3,7 +3,7 @@
 var swiper = new Swiper('.courseSwiper', {
   breakpoints: {
     992: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.38,
       spaceBetween: 30,
       grid: {
         rows: 1
@@ -18,13 +18,14 @@ var swiper = new Swiper('.courseSwiper', {
   grid: {
     fill: 'row',
     rows: 2
-  } // 為了解決 PC 版需要 autoplay
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false
-  // }
-
+  },
+  // 為了解決 PC 版需要 autoplay
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  }
 });
+var feedbackSwiper = new Swiper(".feedbackSwiper", {});
 $(function () {
   console.log('Hello Bootstrap5');
 });
