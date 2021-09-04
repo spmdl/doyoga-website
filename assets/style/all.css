@@ -23801,4 +23801,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   height: 48px;
 }
 
+.swiper-btn-next.swiper-button-disabled, .swiper-btn-prev.swiper-button-disabled {
+  opacity: 0.35;
+}
+
 /*# sourceMappingURL=all.css.map */
