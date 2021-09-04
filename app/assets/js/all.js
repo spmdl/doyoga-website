@@ -1,7 +1,7 @@
-var swiper = new Swiper('.courseSwiper', {
+const swiper = new Swiper('.courseSwiper', {
   breakpoints: {
     992: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.38,
       spaceBetween: 30,
       grid: {
         rows: 1,
@@ -18,11 +18,16 @@ var swiper = new Swiper('.courseSwiper', {
     rows: 2,
   },
   // 為了解決 PC 版需要 autoplay
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false
-  // }
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  }
 });
+
+const feedbackSwiper = new Swiper(".feedbackSwiper", {
+
+});
+
 
 $(function() {
   console.log('Hello Bootstrap5');
