@@ -57,6 +57,8 @@ $position-values: (
   100: 100%
 ) !default;
 
+$grid-gutter-width:                 1.875rem !default;
+
 $enable-negative-margins:           true !default;
 
 $line-height-base:                  1.5 !default;
@@ -93,12 +95,13 @@ $card-img-overlay-padding:          1.5rem !default;
 $card-border-radius:                1rem !default;
 $card-border-width:                 0 !default;
 
+$box-shadow: 0 3px 6px rgba(#00000029, .25) !default;
 // Input
 $input-color:                       $primary !default;
 $input-border-color:                $secondary !default;
+$input-focus-border-color:          $secondary !default;
 $input-placeholder-color:           $secondary !default;
-
-// $form-check-input-border:           1px solid $secondary !default;
+$input-btn-focus-color:             rgba($white, .25) !default;
 
 
 // Ratios
