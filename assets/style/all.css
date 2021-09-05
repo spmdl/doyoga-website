@@ -11833,6 +11833,18 @@ fieldset:disabled .btn {
   z-index: 999 !important;
 }
 
+.bga-scroll {
+  background-attachment: scroll !important;
+}
+
+.bga-fixed {
+  background-attachment: fixed !important;
+}
+
+.bga-local {
+  background-attachment: local !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -14148,6 +14160,15 @@ fieldset:disabled .btn {
   }
   .ratio-sm-21x9 {
     --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
+  }
+  .bga-sm-scroll {
+    background-attachment: scroll !important;
+  }
+  .bga-sm-fixed {
+    background-attachment: fixed !important;
+  }
+  .bga-sm-local {
+    background-attachment: local !important;
   }
 }
 
@@ -16467,6 +16488,15 @@ fieldset:disabled .btn {
   .ratio-md-21x9 {
     --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
   }
+  .bga-md-scroll {
+    background-attachment: scroll !important;
+  }
+  .bga-md-fixed {
+    background-attachment: fixed !important;
+  }
+  .bga-md-local {
+    background-attachment: local !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -18784,6 +18814,15 @@ fieldset:disabled .btn {
   }
   .ratio-lg-21x9 {
     --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
+  }
+  .bga-lg-scroll {
+    background-attachment: scroll !important;
+  }
+  .bga-lg-fixed {
+    background-attachment: fixed !important;
+  }
+  .bga-lg-local {
+    background-attachment: local !important;
   }
 }
 
@@ -21103,6 +21142,15 @@ fieldset:disabled .btn {
   .ratio-xl-21x9 {
     --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
   }
+  .bga-xl-scroll {
+    background-attachment: scroll !important;
+  }
+  .bga-xl-fixed {
+    background-attachment: fixed !important;
+  }
+  .bga-xl-local {
+    background-attachment: local !important;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -23421,6 +23469,15 @@ fieldset:disabled .btn {
   .ratio-xxl-21x9 {
     --bs-aspect-ratio: calc(9 / 21 * 100%) !important;
   }
+  .bga-xxl-scroll {
+    background-attachment: scroll !important;
+  }
+  .bga-xxl-fixed {
+    background-attachment: fixed !important;
+  }
+  .bga-xxl-local {
+    background-attachment: local !important;
+  }
 }
 
 @media print {
@@ -23480,6 +23537,10 @@ fieldset:disabled .btn {
 .btn-light:hover {
   background: #907A7B;
   color: #fff;
+}
+
+.swiper-btn-next.swiper-button-disabled, .swiper-btn-prev.swiper-button-disabled {
+  opacity: 0.35;
 }
 
 *,
@@ -23777,14 +23838,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   opacity: 1;
 }
 
-.logo-img {
+.logo {
   width: 96px;
   height: 31px;
   display: block;
-  background: url(../images/DOYOGA-logo.png) no-repeat center/cover;
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.logo-primary {
+  background: url(../images/DOYOGA-logo.png) no-repeat center/cover;
 }
 
 .logo-white {
@@ -23793,16 +23857,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
 
 .index-banner {
   background: url(../images/photo-1612157777902-5382bc6e864b.jpeg) no-repeat bottom/cover;
-  background-attachment: fixed;
 }
 
 .head-shots-img {
   width: 48px;
   height: 48px;
-}
-
-.swiper-btn-next.swiper-button-disabled, .swiper-btn-prev.swiper-button-disabled {
-  opacity: 0.35;
 }
 
 /*# sourceMappingURL=all.css.map */
