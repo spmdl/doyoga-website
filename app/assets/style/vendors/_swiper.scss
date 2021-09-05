@@ -1,0 +1,4 @@
+// 因為不適用預設的 swiper-button-next 所以要自己設置透明度
+.swiper-btn-next.swiper-button-disabled, .swiper-btn-prev.swiper-button-disabled {
+  opacity: 0.35;
+}

@@ -108,5 +108,15 @@ $utilities: map-merge(
         999: 999,
       )
     ),
+    "background-attachment": (
+      responsive: true,
+      property: background-attachment,
+      class: bga,
+      values: (
+        scroll: scroll,
+        fixed: fixed,
+        local: local
+      ),
+    ),
   )
 );
