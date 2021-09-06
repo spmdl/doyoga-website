@@ -63,7 +63,7 @@ $enable-negative-margins:           true !default;
 
 $line-height-base:                  1.5 !default;
 $font-family-base:                  'Noto Sans TC', sans-serif;
-$body-color:                        $dark !default;
+$body-color:                        $primary !default;
 $color-hover:                       $dark !default;
 
 // link
@@ -95,7 +95,6 @@ $card-img-overlay-padding:          1.5rem !default;
 $card-border-radius:                1rem !default;
 $card-border-width:                 0 !default;
 
-$box-shadow: 0 3px 6px rgba(#00000029, .25) !default;
 // Input
 $input-color:                       $primary !default;
 $input-border-color:                $secondary !default;
@@ -103,6 +102,11 @@ $input-focus-border-color:          $secondary !default;
 $input-placeholder-color:           $secondary !default;
 $input-btn-focus-color:             rgba($white, .25) !default;
 
+// Breadcrumb
+
+// Badges
+$badge-padding-x:                   1rem !default;
+$badge-padding-y:                   .25rem !default;
 
 // Ratios
 $aspect-ratios: (
