@@ -59,7 +59,9 @@ $position-values: (
 
 $grid-gutter-width:                 1.875rem !default;
 
+// Options
 $enable-negative-margins:           true !default;
+$enable-reduced-motion:             false !default;
 
 $line-height-base:                  1.5 !default;
 $font-family-base:                  'Noto Sans TC', sans-serif;
@@ -107,6 +109,17 @@ $input-btn-focus-color:             rgba($white, .25) !default;
 // Badges
 $badge-padding-x:                   1rem !default;
 $badge-padding-y:                   .25rem !default;
+
+// Accordion
+$accordion-border-color:                  $secondary !default;
+$accordion-body-padding-y:                1rem !default;
+$accordion-body-padding-x:                1.25rem !default;
+$accordion-button-color:                  $white !default;
+$accordion-button-bg:                     $primary !default;
+$accordion-button-active-color:           $white !default;
+$accordion-button-active-bg:              $primary !default;
+$accordion-icon-color:                    $white !default;
+
 
 // Ratios
 $aspect-ratios: (
