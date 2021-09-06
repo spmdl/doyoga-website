@@ -11859,6 +11859,14 @@ fieldset:disabled .btn {
   transition: 0.3s !important;
 }
 
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-move {
+  cursor: move !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
