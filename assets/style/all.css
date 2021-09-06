@@ -3262,14 +3262,6 @@ progress {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-control {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .form-control[type="file"] {
   overflow: hidden;
 }
@@ -3341,14 +3333,6 @@ progress {
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out, -webkit-box-shadow 0.22s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-control::file-selector-button {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
   background-color: #dde0e3;
 }
@@ -3370,13 +3354,6 @@ progress {
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, -webkit-box-shadow 0.22s ease-in-out;
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out;
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out, -webkit-box-shadow 0.22s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .form-control::-webkit-file-upload-button {
-    -webkit-transition: none;
-    transition: none;
-  }
 }
 
 .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
@@ -3498,14 +3475,6 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .form-select {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .form-select:focus {
@@ -3637,14 +3606,6 @@ textarea.form-control-lg {
   transition: background-position 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-switch .form-check-input {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .form-switch .form-check-input:focus {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23C0A4A5'/%3e%3c/svg%3e");
 }
@@ -3714,13 +3675,6 @@ textarea.form-control-lg {
           appearance: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .form-range::-webkit-slider-thumb {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
 .form-range::-webkit-slider-thumb:active {
   background-color: #ded7d7;
 }
@@ -3745,13 +3699,6 @@ textarea.form-control-lg {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -moz-appearance: none;
        appearance: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .form-range::-moz-range-thumb {
-    -moz-transition: none;
-    transition: none;
-  }
 }
 
 .form-range::-moz-range-thumb:active {
@@ -3806,14 +3753,6 @@ textarea.form-control-lg {
   -o-transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .form-floating > label {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .form-floating > .form-control {
@@ -4208,14 +4147,6 @@ textarea.form-control-lg {
   -o-transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out;
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out;
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out, -webkit-box-shadow 0.22s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .btn {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .btn:hover {
@@ -4866,14 +4797,6 @@ fieldset:disabled .btn {
   transition: opacity 0.15s linear;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .fade {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .fade:not(.show) {
   opacity: 0;
 }
@@ -4888,14 +4811,6 @@ fieldset:disabled .btn {
   -webkit-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .collapsing {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .dropup,
@@ -5373,14 +5288,6 @@ fieldset:disabled .btn {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .nav-link {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .nav-link:hover, .nav-link:focus {
   color: #736262;
 }
@@ -5560,14 +5467,6 @@ fieldset:disabled .btn {
   -o-transition: box-shadow 0.15s ease-in-out;
   transition: box-shadow 0.15s ease-in-out;
   transition: box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .navbar-toggler {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .navbar-toggler:hover {
@@ -6098,9 +5997,9 @@ fieldset:disabled .btn {
   width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
-  color: #907A7B;
+  color: #fff;
   text-align: left;
-  background-color: #fff;
+  background-color: #907A7B;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -6111,23 +6010,15 @@ fieldset:disabled .btn {
   transition: color 0.22s ease-in-out, background-color 0.22s ease-in-out, border-color 0.22s ease-in-out, box-shadow 0.22s ease-in-out, border-radius 0.15s ease, -webkit-box-shadow 0.22s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .accordion-button {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .accordion-button:not(.collapsed) {
-  color: #826e6f;
-  background-color: #f4f2f2;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
-          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  color: #fff;
+  background-color: #907A7B;
+  -webkit-box-shadow: inset 0 -1px 0 #C0A4A5;
+          box-shadow: inset 0 -1px 0 #C0A4A5;
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23826e6f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
@@ -6140,7 +6031,7 @@ fieldset:disabled .btn {
   height: 1.25rem;
   margin-left: auto;
   content: "";
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23907A7B'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: 1.25rem;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
@@ -6148,14 +6039,6 @@ fieldset:disabled .btn {
   -o-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .accordion-button::after {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .accordion-button:hover {
@@ -6176,7 +6059,7 @@ fieldset:disabled .btn {
 
 .accordion-item {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #C0A4A5;
 }
 
 .accordion-item:first-of-type {
@@ -6279,14 +6162,6 @@ fieldset:disabled .btn {
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page-link {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .page-link:hover {
@@ -6541,14 +6416,6 @@ fieldset:disabled .btn {
   transition: width 0.6s ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .progress-bar {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .progress-bar-striped {
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6558,13 +6425,6 @@ fieldset:disabled .btn {
 .progress-bar-animated {
   -webkit-animation: 1s linear infinite progress-bar-stripes;
           animation: 1s linear infinite progress-bar-stripes;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .progress-bar-animated {
-    -webkit-animation: none;
-            animation: none;
-  }
 }
 
 .list-group {
@@ -7088,14 +6948,6 @@ fieldset:disabled .btn {
   -webkit-transform: translate(0, -50px);
       -ms-transform: translate(0, -50px);
           transform: translate(0, -50px);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .modal.fade .modal-dialog {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .modal.show .modal-dialog {
@@ -7687,14 +7539,6 @@ fieldset:disabled .btn {
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .carousel-item {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
@@ -7743,15 +7587,6 @@ fieldset:disabled .btn {
   transition: opacity 0s 0.6s;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .carousel-fade .active.carousel-item-start,
-  .carousel-fade .active.carousel-item-end {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-}
-
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
@@ -7777,15 +7612,6 @@ fieldset:disabled .btn {
   -webkit-transition: opacity 0.15s ease;
   -o-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
@@ -7872,14 +7698,6 @@ fieldset:disabled .btn {
   -webkit-transition: opacity 0.6s ease;
   -o-transition: opacity 0.6s ease;
   transition: opacity 0.6s ease;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .carousel-indicators [data-bs-target] {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .carousel-indicators .active {
@@ -7984,14 +7802,6 @@ fieldset:disabled .btn {
   height: 1rem;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .spinner-border,
-  .spinner-grow {
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
-  }
-}
-
 .offcanvas {
   position: fixed;
   bottom: 0;
@@ -8013,14 +7823,6 @@ fieldset:disabled .btn {
   -o-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .offcanvas {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
 }
 
 .offcanvas-header {
