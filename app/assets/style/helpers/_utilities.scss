@@ -35,6 +35,8 @@ $utilities: map-merge(
         values: map-merge(
           map-get(map-get($utilities, "height"), "values"),
           (
+            "xs": 216px,
+            "s": 350px,
             "m": 445px,
             "l": 628px,
           ),

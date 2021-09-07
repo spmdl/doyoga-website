@@ -84,6 +84,35 @@ const courseLevelSwiper = new Swiper(".courseLevelSwiper", {
   }
 });
 
+const courseRecommendSwiper = new Swiper(".courseRecommendSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  centeredSlides: true,
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    592: {
+      centeredSlides: false,
+      slidesPerView: 2,
+    },
+    720: {
+      centeredSlides: true,
+      slidesPerView: 2.5,
+    },
+    992: {
+      centeredSlides: false,
+      slidesPerView: 3,
+    },
+    1200: {
+      centeredSlides: true,
+      slidesPerView: 4.2,
+    },
+  },
+});
+
 
 $(function() {
   console.log('Hello Bootstrap5');
