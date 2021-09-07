@@ -1,0 +1,11 @@
+
+.border-reservation {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  &.collapsed {
+    .reservation-icon {
+      transition: $accordion-icon-transition;
+      transform: $accordion-icon-transform;
+    }
+  }
+}

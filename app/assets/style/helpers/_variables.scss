@@ -118,8 +118,12 @@ $accordion-button-color:                  $white !default;
 $accordion-button-bg:                     $primary !default;
 $accordion-button-active-color:           $white !default;
 $accordion-button-active-bg:              $primary !default;
+$accordion-icon-active-color:             $white !default;
 $accordion-icon-color:                    $white !default;
-
+// 修改偽元素 icon
+$accordion-icon-width:                    none !default;
+$accordion-button-icon:                   none !default;
+$accordion-button-active-icon:            none !default;
 
 // Ratios
 $aspect-ratios: (
