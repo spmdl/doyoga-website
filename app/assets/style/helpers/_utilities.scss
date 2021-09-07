@@ -20,6 +20,14 @@ $utilities: map-merge(
         )
       )
     ),
+    "min-viewport-width": (
+      property: min-width,
+      class: min-vw,
+      values: (
+        100: 100vw,
+        9\.7: 970px
+      )
+    ),
     "height": map-merge(
       map-get($utilities, "height"),
       (
