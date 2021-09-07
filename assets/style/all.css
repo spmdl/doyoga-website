@@ -8485,6 +8485,10 @@ fieldset:disabled .btn {
   min-width: 100vw !important;
 }
 
+.min-vw-9\.7 {
+  min-width: 970px !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
