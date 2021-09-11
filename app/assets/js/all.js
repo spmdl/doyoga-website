@@ -88,11 +88,6 @@ const courseRecommendSwiper = new Swiper(".courseRecommendSwiper", {
   slidesPerView: 1,
   spaceBetween: 30,
   centeredSlides: true,
-  loop: true,
-  autoplay: {
-    delay: 3500,
-    disableOnInteraction: false,
-  },
   breakpoints: {
     592: {
       centeredSlides: false,
@@ -111,8 +106,43 @@ const courseRecommendSwiper = new Swiper(".courseRecommendSwiper", {
       slidesPerView: 4.2,
     },
   },
+  loop: true,
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
 });
 
+const teachersSwiper = new Swiper(".teachersSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  grid: {
+    rows: 4,
+    fill: 'column',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      grid: {
+        rows: 1,
+        fill: 'row',
+      },
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      grid: {
+        rows: 1,
+        fill: 'row',
+      },
+    },
+  },
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+});
 
 $(function() {
   console.log('Hello Bootstrap5');

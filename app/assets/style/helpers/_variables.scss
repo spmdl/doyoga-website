@@ -34,7 +34,7 @@ $spacers: (
   21: $spacer * 7,         // 112
   "xs": $spacer * 0.375,   // 6
   "sm": $spacer * 0.875,   // 14
-  "md": $spacer * 1.875,   // 30
+  "m": $spacer * 1.875,    // 30
   "l": 16%
 ) !default;
 
@@ -77,8 +77,9 @@ $border-color:                      $primary !default;
 
 // Button
 $btn-border-radius:                 .25rem !default;
-$btn-padding-y-sm:                  .5rem !default;
-$btn-font-size-sm:                  1.25rem !default;;
+$btn-padding-x-sm:                  .75rem !default;
+$btn-padding-y-sm:                  .375rem !default;
+$btn-font-size-sm:                  1rem !default;;
 $btn-padding-x:                     1rem !default;
 $btn-padding-y:                     .5rem !default;
 $btn-hover-bg-shade-amount:         30% !default;
@@ -104,6 +105,9 @@ $input-focus-border-color:          $secondary !default;
 $input-placeholder-color:           $secondary !default;
 $input-btn-focus-color:             rgba($white, .25) !default;
 
+// Form select
+$form-select-color:                 $white !default;
+$form-select-focus-border-color:    $white !default;
 // Breadcrumb
 
 // Badges
@@ -111,19 +115,19 @@ $badge-padding-x:                   1rem !default;
 $badge-padding-y:                   .25rem !default;
 
 // Accordion
-$accordion-border-color:                  $secondary !default;
-$accordion-body-padding-y:                1rem !default;
-$accordion-body-padding-x:                1.25rem !default;
-$accordion-button-color:                  $white !default;
-$accordion-button-bg:                     $primary !default;
-$accordion-button-active-color:           $white !default;
-$accordion-button-active-bg:              $primary !default;
-$accordion-icon-active-color:             $white !default;
-$accordion-icon-color:                    $white !default;
+$accordion-border-color:            $secondary !default;
+$accordion-body-padding-y:          1rem !default;
+$accordion-body-padding-x:          1.25rem !default;
+$accordion-button-color:            $white !default;
+$accordion-button-bg:               $primary !default;
+$accordion-button-active-color:     $white !default;
+$accordion-button-active-bg:        $primary !default;
+$accordion-icon-active-color:       $white !default;
+$accordion-icon-color:              $white !default;
 // 修改偽元素 icon
-$accordion-icon-width:                    none !default;
-$accordion-button-icon:                   none !default;
-$accordion-button-active-icon:            none !default;
+$accordion-icon-width:              none !default;
+$accordion-button-icon:             none !default;
+$accordion-button-active-icon:      none !default;
 
 // Ratios
 $aspect-ratios: (
@@ -135,7 +139,11 @@ $aspect-ratios: (
   "7x9": calc(9 / 7 * 100%),
   "11x14": calc(14 / 11 * 100%),
   "13x10": calc(10 / 13 * 100%),
+  "31x13": calc(13 / 31 * 100%),
   "16x9": calc(9 / 16 * 100%),
   "16x21": calc(21 / 16 * 100%),
-  "21x9": calc(9 / 21 * 100%)
+  "21x9": calc(9 / 21 * 100%),
+  "23x13": calc(13 / 23 * 100%),
+  // calc(23 / 38 * 100%)
+  "35x22": calc(22 / 35 * 100%)
 ) !default;

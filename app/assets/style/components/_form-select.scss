@@ -1,0 +1,31 @@
+// 替換 form select indicator
+.select-wrapper {
+  position: relative;
+  &::after {
+    color: $secondary;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0dc";
+    // pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+  }
+}
+
+.form-select {
+  // 去除圖片
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-image: none; 
+  border-color: white;
+  cursor: pointer;
+  width: auto;
+  border-radius: .25rem;
+  overflow: hidden;
+  // Hack for IE 11+
+  &::-ms-expand {
+    display: none;
+  }
+}
