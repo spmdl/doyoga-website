@@ -4,7 +4,6 @@ $primary:       #907A7B !default;
 $secondary:     #C0A4A5 !default;
 $light:         #F5F0E7 !default;
 $dark:          #707070 !default;
-// $gray:          #707070 !default;
 $black:         #000 !default;
 $white:         #fff !default;
 
@@ -135,6 +134,7 @@ $aspect-ratios: (
   "3x4": calc(4 / 3 * 100%),
   "4x3": calc(3 / 4 * 100%),
   "5x4": calc(4 / 5 * 100%),
+  "7x4": calc(4 / 7 * 100%),
   "7x5": calc(5 / 7 * 100%),
   "7x9": calc(9 / 7 * 100%),
   "11x14": calc(14 / 11 * 100%),
