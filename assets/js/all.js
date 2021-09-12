@@ -141,6 +141,18 @@ var teachersSwiper = new Swiper(".teachersSwiper", {
     disableOnInteraction: false
   }
 });
+var dateDom = document.querySelector('.js-datepicker-date');
+
+if (dateDom) {
+  var datepicker = new Datepicker(dateDom, {
+    autohide: true,
+    daysOfWeekDisabled: [0],
+    nextArrow: '>',
+    prevArrow: '<',
+    buttonClass: 'btn btn-outline-primary border-0 fw-normal'
+  });
+}
+
 $(function () {
   console.log('Hello Bootstrap5');
 });
